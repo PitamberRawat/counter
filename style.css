@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.value{
+    font-size: 60px;
+    position:relative;
+    left: 30%;
+}
+
+.bttn{
+    padding: 10px;
+}
+
+.btn{
+    margin: 5px;
+    padding: 8px;
+    font-size: 20px;
+    position: relative;
+    left: -18%;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    border-radius: 18px;
+    outline: none;
+}
+
+.decrease:hover{    
+    color: red;
+    background: greenyellow;
+}
+.reset:hover{
+    color: white;
+    background: #131313;
+}
+.increase:hover{
+    color: greenyellow;
+    background: red;
+}
+
+@media screen and (max-width: 535px)  {
+    .btn{
+        margin: 3px;
+        padding: 4px;
+        font-size: 15px;
+        position: relative;
+        left: -18%;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        border-radius: 12px;
+        outline: none;
+    }
+    .value{
+        font-size: 35px;
+        position:relative;
+        left: 25%;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 392px)  {
+    .btn{
+        margin: 2px;
+        padding: 3px;
+        font-size: 15px;
+        position: relative;
+        left: -14%;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        border-radius: 8px;
+        outline: none;
+    }
+    .value{
+        font-size: 28px;
+        position:relative;
+        left: 25%;
+    }
+    h1{
+        font-size: 35px;
+    }
+}
+
